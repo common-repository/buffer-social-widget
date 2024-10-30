@@ -1,0 +1,30 @@
+.widget_tb_instagram_gallery .instagram-pics {
+	display: block;
+	list-style:none;
+	padding:0px;
+	margin:0px;
+}
+.widget_tb_instagram_gallery .instagram-pics{
+	-webkit-display: flex;
+	-ms-display: flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-align-items: flex-start;
+	-ms-align-items: flex-start;
+	align-items: flex-start;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+}
+.widget_tb_instagram_gallery .instagram-pics li  a{
+	display:block;
+	outline:none;
+}
+.widget_tb_instagram_gallery .instagram-pics > *{
+	-webkit-flex-basis: 150px;
+	-ms-flex-basis: 150px;
+	flex-basis: 150px;
+	padding: 3px;
+}
